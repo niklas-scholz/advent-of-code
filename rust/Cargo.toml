@@ -1,0 +1,9 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+name = "day_1_1"
+path = "src/bin/day_1/solve_1.rs"

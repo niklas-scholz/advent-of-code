@@ -1,6 +1,6 @@
 list_a, list_b = [], []
 
-with open("1/input.txt", "r") as file:
+with open("input.txt", "r") as file:
     for row in file:
         chunks = row.strip().split(" ")
         list_a.append(int(chunks[0]))
