@@ -1,8 +1,8 @@
 list_a, list_b = [], []
 
 with open("1/input.txt", "r") as file:
-    for line in file:
-        chunks = line.strip().split(" ")
+    for row in file:
+        chunks = row.strip().split(" ")
         list_a.append(int(chunks[0]))
         list_b.append(int(chunks[-1]))
 
